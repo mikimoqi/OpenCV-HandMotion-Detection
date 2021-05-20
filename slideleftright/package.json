@@ -1,0 +1,18 @@
+{
+  "name": "pointtemplate",
+  "productName": "Point_Template",
+  "description": "COSC 341 Pointing Gesture App",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "Kaz",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "./js_assets/opencv.js": "*"
+  },
+  "devDependencies": {
+    "electron": "^8.5.5"
+  }
+}

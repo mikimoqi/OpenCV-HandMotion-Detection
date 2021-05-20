@@ -1,0 +1,42 @@
+html, body{
+    height: 99%;
+    background-color: navy;
+}
+.app-window{
+    height: 100%;
+    display: grid;
+    grid-template-columns: minmax(400px,400px) 1fr;
+}
+.sidebar{
+    position: relative;
+    display: grid;
+    place-items: center;
+    background-color: goldenrod;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+.ui-container{
+    position: relative;
+    display: grid;
+    background-color: navy;
+    place-items: center;
+}
+.circle{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #bbb;
+}
+#volume-display{
+    position: absolute;
+    left: 960px;
+    font-weight: bold;
+    font-size: large;
+}
+#message{
+    margin: 2em 0em 2em 0em;
+    font-weight: bold;
+}

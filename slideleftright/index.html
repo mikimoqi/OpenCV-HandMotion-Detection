@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>TuneOut</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-window">
+      <div class="sidebar">
+        <div id="videoplayer">
+          <video id="videoIn" width="320" height="240" muted>
+            <source src="assets/pointing_gesture.mp4" type="video/mp4" />
+          </video>
+          <audio id="music-player">
+            <source src="assets/1.mp3" type="audio/mpeg" />
+          </audio>
+          <p id="message">&nbsp;</p>
+        </div>
+        <canvas id="canvasOut"></canvas>
+      </div>
+      <div class="ui-container">
+        <img id="slider-bar" src="assets/volume_slider.png" />
+        <div class="circle"></div>
+        <p id="volume-display">0</p>
+      </div>
+    </div>
+    <script src="./js_assets/video_gest.js"></script>
+    <script>
+      require("./renderer.js");
+    </script>
+  </body>
+</html>
