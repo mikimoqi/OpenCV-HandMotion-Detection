@@ -1,0 +1,35 @@
+html, body{
+    height: 99%;
+    background-color: navy;
+}
+img{
+    position: absolute;
+}
+.app-window{
+    height: 100%;
+    display: grid;
+    grid-template-columns: minmax(400px,400px) 1fr;
+}
+.sidebar{
+    position: relative;
+    display: grid;
+    place-items: center;
+    background-color: goldenrod;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+.ui-container{
+    position: relative;
+    display: grid;
+    background-color: navy;
+    place-items: center;
+}
+#message{
+    margin: 2em 0em 2em 0em;
+    font-weight: bold;
+}
+#mute-indicator{
+    display: none;
+}
